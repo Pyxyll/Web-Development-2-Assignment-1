@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Quiz</title>
+</head>
+
+<body>
+    <section class="flex-container">
+        <div class="column welcome-title">
+
+
+            <h2 id="usernameDisplay"></h2>
+
+            <div id="userSection">
+                <label for="usernameInput">Enter your username:</label>
+                <input type="text" id="usernameInput" class="usernameInput" />
+                <button id="confirmUsername" class="confirmUsername" type="button"><i
+                        class="fi fi-sr-redo"></i></button>
+            </div>
+
+            <div class="infoSection" id="infoSection">
+                <p>This quiz contains 10 questions relating to JavaScript. When you click the start button, the
+                    questions will be presented to you in a random order. You must answer the question presented to you
+                    in order to proceed.after submission you will be shown your result as a percentage and given an
+                    award in the form of a picture of a crown (Budget limits, sorry.)</p>
+                <button id="startQuizBtn" class="startButton" onClick=startQuiz()>Start Quiz</button>
+            </div>
+        </div>
+
+        <div id="questionContainer" class="questionContainer">
+            <p id="questionText"></p>
+            <input type="text" id="answerInput" />
+            <button id="nextQuestionBtn"><i class="fi fi-sr-redo"></i></button>
+        </div>
+
+
+        <div class="completion-message">
+            <h3 id="resultMessage"></h3>
+        </div>
+        <p class="cheerleader"></p>
+        <div class="image-container">
+            <img id="crown" style="display: none;" alt="crown" width="100" class="crownimg">
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
