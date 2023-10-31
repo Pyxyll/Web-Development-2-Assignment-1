@@ -1,10 +1,10 @@
-#Assignment Aim#
+#Assignment Aim
 You are going to build a JavaScript Quiz game application that you can run during
 your next zoom quiz night. The purpose of this assignment is to assess your
 understanding of JavaScript String methods, functions ,arrays and the Document
 Object Model
 
-#Your application must include:#
+#Your application must include:
 
 1. String Manipulation Methods
 2. Functions – arrowfunctions
@@ -14,13 +14,13 @@ Object Model
 6. Conditional statements
 7. Operators
 
-#HTML & CSS Your application should have an aesthetically pleasing design. Include#
+#HTML & CSS Your application should have an aesthetically pleasing design. Include
 
 1. Colour
 2. Headings
 3. Text to explain your application
 
-#Submission#
+#Submission
 
 Your application must be
 deployed to a web server. To
@@ -30,7 +30,7 @@ the upload area on Moodle
 (click add submission, then
 paste into the text box)
 
-#To Do#
+#To Do
 
 1. Ask a minimum of five questions (maximum of 10) . The quiz should
 randomly display the questions to the users.
